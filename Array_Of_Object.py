@@ -10,10 +10,11 @@ class student:
         print("Name : ",self.name)
         print("Percentage : ",self.per)
     
-ob=student()
+
 a=[]
 n=int(input("Enter Limit : "))
 for i in range(0,n):
+    ob=student()
     ob.accept()
     a.append(ob)
 
